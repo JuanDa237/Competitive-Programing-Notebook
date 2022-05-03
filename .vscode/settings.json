@@ -1,0 +1,18 @@
+{
+	"files.associations": {
+		"iomanip": "cpp",
+		"vector": "cpp",
+		"cmath": "cpp",
+		"iostream": "cpp"
+	},
+	"files.exclude": {
+		"contents.tex": true,
+		// Temporal files created by latexmk
+		"notebook.fls": true,
+		"notebook.aux": true,
+		"notebook.fdb_latexmk": true,
+		"notebook.log": true,
+		"notebook.out": true,
+		"notebook.toc": true,
+	}
+}

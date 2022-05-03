@@ -1,0 +1,41 @@
+# Any line followed by a '#' character in this file is ignored
+
+# -- File Format --
+# Section should follow the format:
+#	[section title]
+# Subsections within a section should follow the format:
+#   [filename within code directory][tab character \t][subsection title]
+
+# You can't make a subsection of a subsection, to be able to do this you have to implement it
+# in get_contents_tex_content() function
+
+[C++]
+c++/template.cpp	C++ template
+
+[Example to do more content]
+c++/template.cpp	Just Code
+c++/template.cpp	Just Code
+
+[Example to do more content]
+c++/template.cpp	Just Code
+
+[Example to do more content]
+c++/template.cpp	Just Code
+c++/template.cpp	Just Code
+
+[Example to do more content]
+c++/template.cpp	Just Code
+
+[Example to do more content]
+c++/template.cpp	Just Code
+c++/template.cpp	Just Code
+
+[Example to do more content]
+c++/template.cpp	Just Code
+
+[Example to do more content]
+c++/template.cpp	Just Code
+c++/template.cpp	Just Code
+
+[Example to do more content]
+c++/template.cpp	Just Code
