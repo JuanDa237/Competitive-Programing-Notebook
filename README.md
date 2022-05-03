@@ -1,4 +1,4 @@
-# Personal-CP-Notebook
+<h1 align="center">Personal Competitive Programing Notebook :blue_book:</h1>
 
 This is a repository for my personal competitive programming notebook.
 
