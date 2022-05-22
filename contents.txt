@@ -12,30 +12,27 @@
 [C++]
 c++/template.cpp	C++ template
 
-[Example to do more content]
-c++/template.cpp	Just Code
-c++/template.cpp	Just Code
+[Type Conversion]
+conversion/stringToNumber.cpp	string to number
+conversion/numberToString.cpp	number to string
+conversion/intToChar.cpp	int to char
+conversion/charToInt.cpp	char to int
 
-[Example to do more content]
-c++/template.cpp	Just Code
+[Chars]
+chars/changeCase.cpp	Change Case
+chars/checkCase.cpp	Check Case
 
-[Example to do more content]
-c++/template.cpp	Just Code
-c++/template.cpp	Just Code
+[Strings]
+strings/substring.cpp	Substring
+strings/replace.cpp	Replace
+strings/replaceAll.cpp	Replace All Matches
+strings/changeCase.cpp	Change Case
+strings/trim.cpp	Trim
+strings/split.cpp	Split
+strings/compareLexicographically.cpp	Compare Lexicographically
 
-[Example to do more content]
-c++/template.cpp	Just Code
+[Useful Stuff]
+usefulStuff/swap.cpp	Swap values
+usefulStuff/sort.cpp	Sort vector
 
-[Example to do more content]
-c++/template.cpp	Just Code
-c++/template.cpp	Just Code
-
-[Example to do more content]
-c++/template.cpp	Just Code
-
-[Example to do more content]
-c++/template.cpp	Just Code
-c++/template.cpp	Just Code
-
-[Example to do more content]
-c++/template.cpp	Just Code
+[Fin]
