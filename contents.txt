@@ -33,6 +33,8 @@ strings/compareLexicographically.cpp	Compare Lexicographically
 
 [Useful Stuff]
 usefulStuff/swap.cpp	Swap values
+usefulStuff/read.cpp	Read vector
+usefulStuff/print.cpp	Print vector
 usefulStuff/sort.cpp	Sort vector
 
 [Fin]

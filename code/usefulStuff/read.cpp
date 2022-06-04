@@ -1,0 +1,1 @@
+copy_n(istream_iterator<type>(cin), times, back_inserter(arr));
