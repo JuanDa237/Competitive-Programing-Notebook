@@ -1,1 +1,0 @@
-copy(arr.begin(), arr.end(), ostream_iterator<type>(cout, " "));

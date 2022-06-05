@@ -1,0 +1,1 @@
+count(vec.begin(), vec.end(), 12); // Count how many 12's are in vec.

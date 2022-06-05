@@ -1,0 +1,1 @@
+copy(vec.begin(), vec.end(), ostream_iterator<type>(cout, " "));

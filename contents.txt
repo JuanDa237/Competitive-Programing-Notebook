@@ -31,10 +31,13 @@ strings/trim.cpp	Trim
 strings/split.cpp	Split
 strings/compareLexicographically.cpp	Compare Lexicographically
 
+[Vectors]
+vectors/read.cpp	Read
+vectors/print.cpp	Print
+vectors/sort.cpp	Sort
+vectors/count.cpp	Count
+
 [Useful Stuff]
 usefulStuff/swap.cpp	Swap values
-usefulStuff/read.cpp	Read vector
-usefulStuff/print.cpp	Print vector
-usefulStuff/sort.cpp	Sort vector
 
 [Fin]
