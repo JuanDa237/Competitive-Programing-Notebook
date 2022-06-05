@@ -1,17 +1,28 @@
-vector<string> split(string str, char del)
+vector<string> split(string str, string token)
 {
-	vector<string> tokens;
-	string token;
-	stringstream ss(str);
+	vector<string> result;
 
-	while (getline(ss, token, del))
+	while (str.size())
 	{
-		tokens.push_back(token);
+		int index = str.find(token);
+
+		if (index != string::npos)
+		{
+			result.push_back(str.substr(0, index)); // Push until token
+			str = str.substr(index + token.size()); // Remove text from 0 to index + token size
+
+			if (str.size() == 0) // Cause token was last content, it should be splitted
+				result.push_back(str);
+		}
+		else
+		{
+			result.push_back(str);
+			str = "";
+		}
 	}
 
-	return tokens;
+	return result;
 }
 
-vector<string> tokens = split("Apple Banana Apple", ' ');
-copy(tokens.begin(), tokens.end(), ostream_iterator<string>(cout, ","));
-// Output: Apple,Banana,Apple,
+vector<string> tokens = split(" Apple Banana  Apple ", " ");
+// Output: ["", "Apple", "Banana", "", "Apple", ""]
