@@ -1,14 +1,14 @@
-string text = "ApPlE";
+string st = "ApPlE";
 
 // To lower case
-transform(text.begin(), text.end(), text.begin(), ::tolower);
+transform(st.begin(), st.end(), st.begin(), ::tolower);
 // Output: apple
 
 // To upper case
-transform(text.begin(), text.end(), text.begin(), ::toupper);
+transform(st.begin(), st.end(), st.begin(), ::toupper);
 // Output: APPLE
 
 // Capitalize
-transform(text.begin(), text.end(), text.begin(), ::tolower);
-str[0] = toupper(str[0]);
+transform(st.begin(), st.end(), st.begin(), ::tolower);
+st[0] = toupper(st[0]);
 // Output: Apple

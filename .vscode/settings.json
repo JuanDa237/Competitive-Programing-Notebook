@@ -1,5 +1,10 @@
 {
 	"editor.formatOnSave": false,
+	"[cpp]": {
+		"editor.rulers": [
+			57 // Here is the breakline in the pdf
+		]
+	},
 	"files.associations": {
 		"iomanip": "cpp",
 		"vector": "cpp",

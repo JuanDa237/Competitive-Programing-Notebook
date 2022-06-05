@@ -1,0 +1,1 @@
+cout << setprecision(20) << fixed;

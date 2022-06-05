@@ -8,10 +8,13 @@ vector<string> split(string str, string token)
 
 		if (index != string::npos)
 		{
-			result.push_back(str.substr(0, index)); // Push until token
-			str = str.substr(index + token.size()); // Remove text from 0 to index + token size
+			// Push until token
+			result.push_back(str.substr(0, index));
+			// Remove text from 0 to index + token size
+			str = str.substr(index + token.size());
 
-			if (str.size() == 0) // Cause token was last content, it should be splitted
+			// Cause token was last content, it should be splitted
+			if (str.size() == 0)
 				result.push_back(str);
 		}
 		else

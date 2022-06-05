@@ -39,5 +39,6 @@ vectors/count.cpp	Count
 
 [Useful Stuff]
 usefulStuff/swap.cpp	Swap values
+usefulStuff/coutPrecision.cpp	Cout Float Point Precision
 
 [Fin]
