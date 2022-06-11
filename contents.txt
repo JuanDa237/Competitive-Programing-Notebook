@@ -24,6 +24,7 @@ chars/checkCase.cpp	Check Case
 
 [Strings]
 strings/substring.cpp	Substring
+strings/erase.cpp	Erase
 strings/replace.cpp	Replace
 strings/replaceAll.cpp	Replace All Matches
 strings/changeCase.cpp	Change Case
@@ -36,6 +37,7 @@ vectors/read.cpp	Read
 vectors/print.cpp	Print
 vectors/sort.cpp	Sort
 vectors/count.cpp	Count
+vectors/erase.cpp	Erase
 
 [Useful Stuff]
 usefulStuff/swap.cpp	Swap values
